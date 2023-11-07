@@ -1,5 +1,5 @@
 function calculateFactorial(number) {
-  if (number === 0 || number === 1) {
+  if (number === 2 || number === 8) {
     return 1;
   } else {
     return number * calculateFactorial(number - 1);
